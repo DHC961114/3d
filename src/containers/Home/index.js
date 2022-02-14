@@ -17,7 +17,6 @@ import carImage from './images/car.png';
 import developingImage from './images/developing.png';
 import segmentFaultImage from './images/segmengfault.png';
 import humanImage from './images/human.png';
-import olympicImage from './images/olympic.png';
 import './index.css';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -40,13 +39,6 @@ const workList = [
     title: '脸书Meta元宇宙Logo',
     description: '🪐 Three.js + Blender 实现炫酷的Facebook元宇宙Logo.',
     image: metaImage,
-    three: true
-  },
-  {
-    link: '#/olympic',
-    title: '2022冬奥会3D趣味页面',
-    description: '🐼一只萌萌的冰墩墩送给大家！',
-    image: olympicImage,
     three: true
   },
   {
